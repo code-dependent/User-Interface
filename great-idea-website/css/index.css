@@ -64,3 +64,160 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width:80%;
+	margin:0 auto;
+}
+/* ///////////////////// */
+
+
+/* styling the <nav>, <a> and <img class="logo"> in the <header> */
+
+
+.navBar{
+	display:inline-block;
+	margin:0 auto;
+	width:100%;
+	align-content: center;
+	position:fixed;
+	background: #4A586E;
+	overflow: hidden;
+	
+	
+	
+}
+.logo{
+	position: absolute;
+	right:13%;
+	top:10%;
+}
+.navBar a{
+	display:inline-block;
+	text-align: center;
+	width: 12%;
+	height:5vh;
+	text-decoration:none;
+	color:#BCBEC0;
+	transition: font-color 1s, background-color 1s;
+
+
+}
+
+.navBar a:hover{
+	background:#808285;
+	color:white;
+}
+
+.navBar a span{
+	display:inline-block;
+	margin-top:11%;
+	width:100%;
+	text-align:center;
+}
+/* ////////////////////// */
+
+/* styling the <h1>, <a> and <img> in header */
+
+
+.hLineSec::after {
+		content: "";
+		clear: both;
+		display: table;
+		justify-content: space-between;
+		align-content: center;
+		height:12.5vh;
+}
+.hLineSec a{
+	display:inline-block;
+	border:.04rem solid black;
+	width:45%;
+	margin-left:3em;
+	height:2em;
+	text-align: center;
+	padding-top: 2%;
+	text-decoration: none;
+	color:#535353;
+	transition: font-color 1s, background-color 1s, text-decoration 1s;
+}
+
+.hLineSec a:hover{
+	color:white;
+	text-decoration: underline;
+	background:#535353;
+}
+
+h1{
+	font-size: 5rem;
+	width:75%;
+	text-align: center;
+
+}
+#hline{
+	float: left;
+	padding: 5px;
+	padding-left:10%;
+	margin-top:15%;
+}
+
+#headerimg{
+	/* float:left; */
+	margin-top:5%;
+	width: 49%;
+	padding: 5%;
+	margin-left:-5%;
+	padding-left:10%
+	
+}
+/* ////////////////////// */
+
+
+/* styling the main-content */
+.feartures{
+	border-left:0px;
+	margin-left:0px;
+	padding-left:0px;
+}
+
+.middle-img{
+	width:100%;
+}
+.main-content{
+	width:45%;
+	display:inline-block;
+	letter-spacing:.011em;
+	margin:5% 2%;
+	line-height: 133%;
+
+}
+p{
+	font-size:115%;
+}
+h2{
+	font-size:160%;
+	
+}
+.main-content2{
+	width:30%;
+	height:5vh;
+	display:inline-block;
+	margin-right:3%;
+	margin-top:5%;
+	margin-bottom:13%;
+	line-height: 133%;
+	letter-spacing:.011em;
+}
+/* ////////////////////// */
+
+
+/* styling the <footer>, <address> and copyright section */
+footer{
+	margin-top:5%;
+	width:15%;
+}
+p.copyright{
+	align-content: center;
+	display:inline-block;
+	margin:5% 38%;
+	
+}
